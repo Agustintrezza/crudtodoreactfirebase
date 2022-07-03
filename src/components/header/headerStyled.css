@@ -1,0 +1,61 @@
+.header {
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .firebase-logo {
+    font-size: 45px;
+  }
+}
+
+.firebase-logo {
+  font-size: 35px;
+  color: #fdc736;
+}
+.react-logo {
+  font-size: 35px;
+  color: #36d8fd;
+  margin-left: 2px;
+}
+.general {
+  background-color: #1976d2;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(140, 140, 140, 1);
+  -moz-box-shadow: 0px 2px 1px 0px rgba(140, 140, 140, 1);
+  box-shadow: 0px 2px 1px 0px rgba(140, 140, 140, 1);
+}
+.h1-header {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 200;
+}
+span {
+  font-weight: bold;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+.nav-link {
+  color: white!important;
+  text-decoration: none!important;
+  font-size: 16px!important;
+  letter-spacing: 1px;
+  font-weight: 300!important;
+}
+.nav-link:hover {
+  color: black!important;
+}
+

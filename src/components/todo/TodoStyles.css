@@ -1,0 +1,28 @@
+ul {
+    padding: 0rem!important;
+}
+.titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+.titulo-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300!important;
+}
+li {
+    list-style: none;
+    font-size: 16px;
+}
+.fecha {
+    font-size: 13px;
+}
+.icon {
+    font-size: 14px;
+}
+.validation {
+    color: #dc3645!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    font-family: "Raleway", sans-serif!important;
+    margin-top: 5px!important;
+}
